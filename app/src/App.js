@@ -58,14 +58,19 @@ function App() {
       }
     })
 
-    console.log("filter data >> ", filteredData);
+    // console.log("filter data >> ", filteredData);
     setData([...filteredData]);
 
   }
   
 
   return (
-    <div className="App">
+    <div className="App"
+    style={{
+      margin: "10px",
+      padding: "5px"
+    }}
+    >
       
       <h1>Data and Views Table</h1>
 
